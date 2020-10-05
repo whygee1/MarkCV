@@ -1,0 +1,45 @@
+body{
+    display:flex;
+    background-color: grey;
+    box-shadow:0 0 10px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.image{
+    background-color:#e5e4e2 ;
+    width:120px;
+    height:144px;
+    padding:0.2rem;
+}
+.table1{
+    width:300px;
+    padding:1.5rem 1rem 1rem 0.5rem;
+    background-color: #A9A9A9;
+    display:table-cell;
+}
+.table2{
+    background-color: #e5e4e2;
+    display: table-cell;
+    padding-right:1.5rem;
+    padding-top:2rem;
+}
+table td{
+    padding-left:1rem;
+}
+.contact{
+    width:200px;
+    overflow-wrap:break-word;
+}
+li{
+    list-style: none;
+}
+
+ul{
+    padding:0;
+}
+ul li p{
+    margin-left: 75px;
+}   
+.skills{
+    margin-left:75px;
+}
