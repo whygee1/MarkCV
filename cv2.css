@@ -43,3 +43,28 @@ ul li p{
 .skills{
     margin-left:75px;
 }
+.image:hover{
+    transform: scale(1.15);
+    transition:1s ease;
+}
+body{
+    opacity: 1;
+    animation-name: opbody;
+    animation-duration: 2s;
+   
+}
+p{
+    opacity:1;
+    animation-name: opp;
+    animation-duration: 2s;
+}
+@keyframes opbody{
+    from{opacity:0;}
+    to{opacity: 1;}
+}
+@keyframes opp{
+    0%{opacity:0;}
+    25%{opacity:0;}
+    100%{opacity:1;}          
+
+}
